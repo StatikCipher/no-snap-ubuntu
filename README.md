@@ -98,13 +98,13 @@ cd no-snap-ubuntu
 Make the script executable:
 
 ```bash
-chmod +x remove-snap-ubuntu-26.04.sh
+chmod +x no-snap-ubuntu.sh
 ```
 
 Run it as your **normal user**:
 
 ```bash
-./remove-snap-ubuntu-26.04.sh
+./no-snap-ubuntu.sh
 ```
 
 Do **not** run the whole script with `sudo`.
@@ -192,7 +192,7 @@ If any check fails, the script exits with an error and says which one failed.
 YOUR-REPO-NAME/
 ├── LICENSE
 ├── README.md
-└── remove-snap-ubuntu-26.04.sh
+└── no-nsap-ubuntu.sh
 ```
 
 ---
